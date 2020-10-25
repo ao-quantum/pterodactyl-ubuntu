@@ -1,6 +1,7 @@
 #!/bin/bash
 cd /home/container
 
+usermod -aG sudo container
 echo pterodactyl | passwd container --stdin
 
 # Make internal Docker IP address available to processes.
