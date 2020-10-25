@@ -4,7 +4,7 @@
 #                               |
 #-------------------------------+
 
-FROM ubuntu:latest
+FROM quay.io/quantumsoul/ubuntu-sshd:latest
 
 MAINTAINER xXQuantumSoulXx, <me@quantumsoul.xyz>
 
